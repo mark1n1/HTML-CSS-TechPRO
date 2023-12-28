@@ -1,0 +1,21 @@
+/* p {
+    color: red;
+} */
+
+/* .heading,
+.descripcion,
+.oferta {
+    color: red;
+} */
+
+/* p:not(.texto) {
+    color: red;
+} */
+
+/* p:not(.texto):not(.oferta) {
+    color: red;
+} */
+
+p:not(.texto, .oferta) {
+    color: red;
+}

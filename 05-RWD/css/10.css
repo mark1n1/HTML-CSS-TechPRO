@@ -1,0 +1,5 @@
+/* responsive images */
+img {
+    max-width: 100%;
+    display: block;
+}

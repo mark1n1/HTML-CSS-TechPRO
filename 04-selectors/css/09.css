@@ -1,0 +1,7 @@
+/* .admin > p {
+    background-color: red;
+} */
+
+.admin div + p {
+    background-color: red;
+}
